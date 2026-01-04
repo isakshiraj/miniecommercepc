@@ -13,8 +13,8 @@ body {
 
 body {
   font-family: "Segoe UI", Tahoma, sans-serif;
-  background-color: #f5f7fa;
-  color: #333;
+  background-color: #f0fdf4; /* light green background */
+  color: #14532d; /* dark green text */
 }
 
 #root {
@@ -29,19 +29,19 @@ button {
   border: none;
   padding: 8px 14px;
   border-radius: 8px;
-  background-color: #2563eb;
+  background-color: #16a34a; /* primary green */
   color: white;
   font-size: 14px;
   transition: background 0.2s ease, transform 0.15s ease;
 }
 
 button:hover {
-  background-color: #1e40af;
+  background-color: #15803d;
   transform: translateY(-1px);
 }
 
 button:disabled {
-  background-color: #9ca3af;
+  background-color: #86efac;
   cursor: not-allowed;
   transform: none;
 }
@@ -52,15 +52,15 @@ button:disabled {
   justify-content: space-between;
   align-items: center;
   padding: 16px 32px;
-  background-color: white;
-  border-bottom: 1px solid #e5e7eb;
+  background-color: #dcfce7;
+  border-bottom: 1px solid #bbf7d0;
   position: sticky;
   top: 0;
   z-index: 100;
 }
 
 .header h2 {
-  color: #2563eb;
+  color: #166534;
   font-weight: 700;
 }
 
@@ -78,11 +78,12 @@ button:disabled {
 .center h1 {
   font-size: 44px;
   margin-bottom: 16px;
+  color: #14532d;
 }
 
 .center p {
   font-size: 20px;
-  color: #555;
+  color: #166534;
   margin-bottom: 50px;
 }
 
@@ -105,22 +106,24 @@ button:disabled {
   flex-wrap: wrap;
   gap: 14px;
   padding: 20px 32px;
-  background-color: white;
-  border-bottom: 1px solid #e5e7eb;
+  background-color: #ecfdf5;
+  border-bottom: 1px solid #bbf7d0;
 }
 
 .filters input,
 .filters select {
   padding: 10px;
   border-radius: 8px;
-  border: 1px solid #d1d5db;
+  border: 1px solid #86efac;
   font-size: 14px;
+  background-color: #f0fdf4;
+  color: #14532d;
 }
 
 .filters input:focus,
 .filters select:focus {
   outline: none;
-  border-color: #2563eb;
+  border-color: #22c55e;
 }
 
 /* ================= PRODUCT GRID ================= */
@@ -131,29 +134,30 @@ button:disabled {
   gap: 22px;
 }
 
-/* ================= PRODUCT CARD ================= */
+/* ================= PRODUCT / CART CARD ================= */
 .card {
-  background-color: white;
+  background-color: #ffffff;
   padding: 18px;
   border-radius: 12px;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #bbf7d0;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 12px 24px rgba(22, 163, 74, 0.15);
 }
 
 .card h4 {
   font-size: 16px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  color: #14532d;
 }
 
-.card p {
+.meta {
   font-size: 14px;
+  color: #166534;
   margin-bottom: 6px;
-  color: #555;
 }
 
 .card button {
@@ -161,7 +165,7 @@ button:disabled {
   margin-top: 12px;
 }
 
-/* Quantity control in product card */
+/* ================= QUANTITY CONTROL ================= */
 .qty-control {
   display: flex;
   align-items: center;
@@ -181,37 +185,12 @@ button:disabled {
   font-weight: 600;
 }
 
-.meta {
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 6px;
-}
-
-
-/* ================= CART PAGE ================= */
-.cart-item {
-  background-color: white;
-  padding: 16px;
-  margin: 16px 32px;
-  border-radius: 10px;
-  border: 1px solid #e5e7eb;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-}
-
-.cart-item input {
-  width: 70px;
-  padding: 8px;
-  border-radius: 6px;
-  border: 1px solid #d1d5db;
-}
-
+/* ================= CART SUMMARY ================= */
 .cart-summary {
   margin: 32px;
   font-size: 18px;
   font-weight: 600;
+  color: #14532d;
 }
 
 /* ================= EMPTY STATES ================= */
@@ -224,8 +203,8 @@ footer {
   margin-top: auto;
   padding: 18px;
   text-align: center;
-  background-color: white;
-  border-top: 1px solid #e5e7eb;
-  color: #666;
+  background-color: #dcfce7;
+  border-top: 1px solid #bbf7d0;
+  color: #166534;
   font-size: 14px;
 }

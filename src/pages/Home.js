@@ -2,7 +2,7 @@
 export default function Home({ goTo }) {
   return (
     <div className="center">
-      <h1>Welcome to EcommercePLC</h1>
+      <h1>Welcome to EcommerceP&C</h1>
       <p>Your one stop shop</p>
 
       <div className="btn-group">
