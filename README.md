@@ -101,6 +101,13 @@ https://dummyjson.com/products
 
 ---
 
+## Website
+
+<img width="1901" height="954" alt="image" src="https://github.com/user-attachments/assets/e15e1b12-e1e4-48a5-8129-1fc4e7846dd0" />
+<img width="1906" height="955" alt="image" src="https://github.com/user-attachments/assets/1abec8d0-9c93-4810-b251-e738cd0e2c63" />
+<img width="1911" height="958" alt="image" src="https://github.com/user-attachments/assets/6ff10100-e679-4e5c-96c3-5fea37e3def4" />
+
+---
 ## How to Run
 
 1. Install dependencies
