@@ -1,7 +1,7 @@
 # Mini E-Commerce Product & Cart
 
-This project is a Mini E-Commerce application built using React functional components as part of the Betterway Online Assessment.  
-The focus of the assignment is on React fundamentals, clean component design, proper state management, and handling edge cases correctly.
+This project is a Mini E-Commerce application built using React functional components.  
+The focus is on React fundamentals, clean component design, proper state management, and handling edge cases correctly.
 
 The application avoids unnecessary complexity and prioritizes clarity, correctness, and maintainable code.
 
@@ -22,24 +22,13 @@ The goal of this project is to build a simple e-commerce interface where users c
 ## Tech Stack
 
 - React (Functional Components)
-- JavaScript (ES6+)
+- JavaScript
 - Plain CSS
 - Public REST API for product data
 
 No UI libraries or backend services are used.
 
 ---
-
-## Constraints Followed
-
-- No UI libraries (Material UI, Ant Design, Chakra UI, etc.)
-- No backend implementation
-- Only React functional components
-- Basic CSS for styling
-- Clean and readable code structure
-
----
-
 ## Features Implemented
 
 ### Product Listing
@@ -64,6 +53,7 @@ No UI libraries or backend services are used.
 - Update item quantity
 - Quantity cannot exceed available stock
 - Cart updates are reflected immediately
+- Persist cart in Local Storage
 
 ### Cart Summary
 - Displays total number of items
@@ -75,15 +65,6 @@ No UI libraries or backend services are used.
 - Empty state handling:
   - No products found
   - Cart is empty
-
----
-
-## Bonus Features
-
-- Cart data persisted using localStorage
-- Debounced search input for better performance
-- Product details modal
-
 ---
 
 ## API Used
@@ -117,27 +98,9 @@ https://dummyjson.com/products
    npm run dev
 
    (or npm start if using Create React App)
-
----
-
-## Evaluation Focus
-
-- React fundamentals
-- Component structure and separation of concerns
-- State management and updates
-- Edge case handling
-- Code readability and maintainability
-
----
-
-## Notes
-
-- The implementation focuses on correctness over styling.
-- Overengineering and unnecessary abstractions are intentionally avoided.
-- The solution closely follows the Betterway OA requirements.
-
 ---
 
 ## Author
 
 Sakshi Raj
+sakshiraj713@gmail.com
