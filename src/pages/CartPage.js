@@ -4,9 +4,7 @@ export default function CartPage() {
   const { cart, dispatch } = useCart();
   const items = Object.values(cart);
 
-  if (!items.length) {
-    return <p>Cart is empty</p>;
-  }
+  if (!items.length) return <p>Cart is empty</p>;
 
   const totalItems = items.reduce((sum, item) => sum + item.qty, 0);
   const totalPrice = items.reduce(
@@ -20,7 +18,6 @@ export default function CartPage() {
         {items.map(item => (
           <div className="card" key={item.id}>
             <h4>{item.title}</h4>
-
             <p className="meta">Price: ₹{item.price}</p>
             <p className="meta">Category: {item.category}</p>
 

@@ -2,10 +2,8 @@ import { memo } from "react";
 import { useCart } from "../context/CartContext";
 
 function ProductCard({ product }) {
-
   const { cart, dispatch } = useCart();
 
-  
   if (!product) return null;
 
   const cartItem = cart[product.id];
