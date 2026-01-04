@@ -96,19 +96,8 @@ https://dummyjson.com/products
 
 ## Project Structure
 
-src/
-├── App.js
-├── main.js
-├── styles.css
-├── hooks/
-│   └── useDebounce.js
-└── components/
-    ├── Filters.js
-    ├── ProductList.js
-    ├── ProductCard.js
-    ├── ProductModal.js
-    ├── Cart.js
-    └── CartItem.js
+<img width="239" height="729" alt="image" src="https://github.com/user-attachments/assets/64339b60-2ed0-4732-a467-5a8654c292f5" />
+
 
 ---
 
